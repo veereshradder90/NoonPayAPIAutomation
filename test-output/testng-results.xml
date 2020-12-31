@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6842" started-at="2020-12-31T09:20:50Z" finished-at="2020-12-31T09:20:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6842" started-at="2020-12-31T09:20:50Z" finished-at="2020-12-31T09:20:57Z">
+      <class name="com.noonpay.tests.TransactionHistoryTests">
+        <test-method status="PASS" signature="sertBaseURI()[pri:0, instance:com.noonpay.tests.TransactionHistoryTests@675d3402]" name="sertBaseURI" is-config="true" duration-ms="2542" started-at="2020-12-31T14:50:50Z" finished-at="2020-12-31T14:50:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sertBaseURI -->
+        <test-method status="PASS" signature="verifyTransactionhistory()[pri:0, instance:com.noonpay.tests.TransactionHistoryTests@675d3402]" name="verifyTransactionhistory" duration-ms="1351" started-at="2020-12-31T14:50:52Z" finished-at="2020-12-31T14:50:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTransactionhistory -->
+        <test-method status="PASS" signature="verifyTransactionhistoryStatus()[pri:0, instance:com.noonpay.tests.TransactionHistoryTests@675d3402]" name="verifyTransactionhistoryStatus" duration-ms="978" started-at="2020-12-31T14:50:54Z" finished-at="2020-12-31T14:50:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTransactionhistoryStatus -->
+        <test-method status="PASS" signature="verifyTransactionhistoryTxnDate()[pri:0, instance:com.noonpay.tests.TransactionHistoryTests@675d3402]" name="verifyTransactionhistoryTxnDate" duration-ms="977" started-at="2020-12-31T14:50:55Z" finished-at="2020-12-31T14:50:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTransactionhistoryTxnDate -->
+        <test-method status="PASS" signature="verifyTransactionhistoryerrorMessage()[pri:0, instance:com.noonpay.tests.TransactionHistoryTests@675d3402]" name="verifyTransactionhistoryerrorMessage" duration-ms="976" started-at="2020-12-31T14:50:56Z" finished-at="2020-12-31T14:50:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTransactionhistoryerrorMessage -->
+      </class> <!-- com.noonpay.tests.TransactionHistoryTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
