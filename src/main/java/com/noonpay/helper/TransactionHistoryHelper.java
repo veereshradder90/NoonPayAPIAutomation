@@ -16,7 +16,7 @@ public class TransactionHistoryHelper extends BaseClass{
 
 public String getAccessToken() {
 	
-		File file=new File(APIConstants.tokenJsonPath);
+		File file=new File(System.getProperty("user.dir")+APIConstants.tokenJsonPath);
 		try {
 			FileInputStream fi=new FileInputStream(file);
 		} catch (FileNotFoundException e) {
